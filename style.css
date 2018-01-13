@@ -50,8 +50,9 @@ article {
 	display: inline-block;
 	float: left;
 	padding: 10px;
-	height: 300pt;
-	width: 300pt;
+	min-height: 300pt;
+	min-width: 200pt;
+	max-width: 30%;
 	text-align: center;
 	background: #EFEFEF;
 	border: 2px solid #E6E6E6;
